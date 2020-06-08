@@ -2,6 +2,20 @@ Advanced Geoscripting  - SS 2020  -  Instructor: Christina Ludwig
 
 # Preparatory Assignment
 
+The purpose of this __preparatory assignment__ is to make sure that everyone is well prepared for the block course in August. Therefore, this __assignment is mandatory__ and has to be __submitted prior to the course until August 6th 2020.__ 
+
+The assignment can be accessed and submitted via [GitHub Classroom](https://classroom.github.com/a/XeAN5a_k). 
+
+If you encounter problems which you cannot solve on your own, create a new topic in the [GitHub forum](https://github.com/orgs/geoscripting/teams/advanced-geoscripting-2020/discussions) and describe your problem.  
+
+__Important notes:__ 
+
+* Completing this __assignment is a prerequisite for attending the course!__
+* __Submission deadline: 6.8.2020__
+* Please make sure to __name the output files exactly as described.__
+
+## Learning goals
+
 After you have completed this assignment you will be able to ...
 
 *  name different best practice methods for scientific computing, 
@@ -9,16 +23,11 @@ After you have completed this assignment you will be able to ...
 *  use Jupyter notebook to write Python code and
 *  use git to track your work progress. 
 
-**Attention: Completing this preparatory assignment is a prerequisite for attending the course!**
-
-If you encounter problems which you cannot solve on your own, create a new topic in the [GitHub forum](https://github.com/orgs/geoscripting/teams/advanced-geoscripting-2020/discussions) and describe your problem.  
-
-
 ## 1. Best Practices in Scientific Computing
 
 <img src="./img/phdcomic_final.png" alt="final" width="300px" align="right" />
   
-Read the paper by [Wilson et al. (2014)](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3886731/) on Best Practices for Scientific Computing and answer the following questions. Write your answer into a text file called _scientific_programming.txt_.
+Read the paper by [Wilson et al. (2014)](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3886731/) on Best Practices for Scientific Computing and answer the following questions. Write your answer into a text file called _scientific\_programming.txt_.
 
 1. The paper describes several problems scientist face when conducting data analyses. From your experience in performing (GIS) analyses, which of these problems seem familiar to you? Did you face other problems not mentioned in the paper? (~100 words)
 2. Which methods described in the paper could help you avoid these problems in the future? (~100 words)
@@ -43,7 +52,12 @@ Now we will use git to track the changes of the new files we have created so far
 ### Clone GitHub repository and track your changes
 
 1. If you haven't done so already, clone the GitHub repository of this assignment on your computer. 
-2. We have created two files so far. Create a commit for each one of them to add them to your local git repository, e.g.
+
+	```
+	git clone https://github.com/geoscripting/preparatory_assignment.git
+	```
+	
+2. We have created two files so far. Copy these files into the main folder of the cloned repository. Create a commit for each one of them to add them to your local git repository, e.g.
 
 	```
 	git add scientific_programming.txt
@@ -52,9 +66,9 @@ Now we will use git to track the changes of the new files we have created so far
 
 ### Create a new Jupyter notebook
 
-1. Activate the "advgeoscripting" environment and start Jupyter notebook. 
-2. Create a new Jupyter notebook using the Python 3 kernel and name it 'Preparatory_Assignment'. 
-3. Import the function ```check_packages()``` from check_environment.py and execute it in order to check whether the notebook is using the right anaconda environment 'advgeoscripting'. If you get a ```ModuleImportError```, check whether the right kernel is selected (Jupyter Menu: Kernel &rarr; Change kernel).
+1. Activate the _advgeoscripting_ environment and start a Jupyter Notebook server. 
+2. Create a new Jupyter notebook using the Python 3 kernel and name it _preparatory\_assignment.ipynb_. 
+3. Import the function ```check_packages()``` from _check\_environment.py_ and execute it in order to check whether the notebook is using the right anaconda environment 'advgeoscripting'. If you get a ```ModuleImportError```, check whether the right kernel is selected (Jupyter Menu: Kernel &rarr; Change kernel).
 4. Add the notebook to your git repository by creating a new commit.
 5. Within the notebook, write a new function called ```list_sum()```, which calculates the sum of all numbers in a list. e.g. 
 
