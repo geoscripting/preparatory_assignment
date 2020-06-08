@@ -69,9 +69,7 @@ Now we will use git to track the changes of the new files we have created so far
 
 ### Synchronise your repository with GitHub
 
-1. Create a new repository on GitHub and provide the link in your documentation. __Note:__ Do not initialise the repository with  a README, license or .gitignore file. 
-2. Copy the URL of this repository and link it to your local git repository. 
-3. Push all your commits to GitHub. 
+1. Push all your commits to GitHub. 
 
 If you make further edits to your files (e.g. editing your answers to the questions in exercise 1) remember that you can always add these changes to your GitHub repository by creating further commits and pushing them to GitHub. 
 
