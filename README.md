@@ -1,18 +1,13 @@
-Advanced Geoscripting  - SS 2020  -  Instructor: Christina Ludwig 
-
 # Preparatory Assignment
 
-The purpose of this __preparatory assignment__ is to make sure that everyone is well prepared for the block course in August. Therefore, this __assignment is mandatory__ and has to be __submitted prior to the course until August 6th 2020.__ 
+The purpose of this preparatory assignment is to make sure that you (and your computer) are well prepared for the block course in August to avoid having technical issues during the block course. Therefore, this __assignment is mandatory__ and has to be __submitted until Friday, August 7th__. 
 
-The assignment can be accessed and submitted via [GitHub Classroom](https://classroom.github.com/a/XeAN5a_k). 
-
-If you encounter problems which you cannot solve on your own, create a new topic in the [GitHub forum](https://github.com/orgs/geoscripting/teams/advanced-geoscripting-2020/discussions) and describe your problem.  
+The assignment can be __accessed and submitted via [GitHub Classroom](https://classroom.github.com/a/XeAN5a_k)__. This requires a [GitHub user account](https://github.com/). Please create one and register for [GitHub Education benefits](https://education.github.com/benefits).
 
 __Important notes:__ 
 
-* Completing this __assignment is a prerequisite for attending the course!__
-* __Submission deadline: 6.8.2020__
 * Please make sure to __name the output files exactly as described.__
+* If you encounter problems which you cannot solve on your own, create a new topic in the [GitHub forum of this course](https://github.com/orgs/geoscripting/teams/advanced-geoscripting-2020/discussions) and describe your problem.  
 
 ## Learning goals
 
@@ -26,7 +21,7 @@ After you have completed this assignment you will be able to ...
 ## 1. Best Practices in Scientific Computing
 
 <img src="./img/phdcomic_final.png" alt="final" width="300px" align="right" />
-  
+
 Read the paper by [Wilson et al. (2014)](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3886731/) on Best Practices for Scientific Computing and answer the following questions. Write your answer into a text file called _scientific\_programming.txt_.
 
 1. The paper describes several problems scientist face when conducting data analyses. From your experience in performing (GIS) analyses, which of these problems seem familiar to you? Did you face other problems not mentioned in the paper? (~100 words)
@@ -37,7 +32,7 @@ Read the paper by [Wilson et al. (2014)](https://www.ncbi.nlm.nih.gov/pmc/articl
 
 ## 2. Install and configure required software
 
-1. Follow the instructions given in the section [Software Setup](./software_setup) to install all required software for the course. 
+1. Follow the instructions given in the section [Software Setup](../software_setup) to install all required software for the course. 
 
 2. Execute the python file _check\_environment.py_ from within your new Python environment to verify that all required packages have been installed successfully. Using the following command the output of the program will be written into a new text file called _check\_environment\_result.txt_. If you get an error message, try the solve it using the suggested solutions.  
 
