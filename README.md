@@ -22,19 +22,19 @@ After you have completed this assignment you will be able to ...
 
 <img src="./img/phdcomic_final.png" alt="final" width="300px" align="right" />
 
-Read the paper by [Wilson et al. (2014)](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3886731/) on Best Practices for Scientific Computing and answer the following questions. Write your answer into a text file called _scientific\_programming.txt_.
+Read the paper by [Wilson et al. (2014)](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3886731/) on Best Practices for Scientific Computing and answer the following questions. Write your answer in a text file called _scientific\_programming.txt_.
 
-1. The paper describes several problems scientist face when conducting data analyses. From your experience in performing (GIS) analyses, which of these problems seem familiar to you? Did you face other problems not mentioned in the paper? (~100 words)
+1. The paper describes several problems scientist face when performing scientific data analyses. From your experience in performing (GIS) analyses, which of these problems seem familiar to you? Have you faced other problems not mentioned in the paper? (~100 words)
 2. Which methods described in the paper could help you avoid these problems in the future? (~100 words)
-3. One of the recommendations by [Wilson et al. (2014)](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3886731/) for scientists is to use a Version Control System (VCS). Briefly explain your own words, what the benefits of VCS are in the context of scientific analyses. (~100 words)
+3. One of the recommendations by [Wilson et al. (2014)](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3886731/) for scientists is to use a Version Control System (VCS). Briefly explain in your own words, what the benefits of VCS are in the context of scientific analyses. (~100 words)
 
 <sup>Image source: “Piled Higher and Deeper” by Jorge Cham, http://www.phdcomics.com</sup>
 
-## 2. Install and configure required software
+## 2. Install required software
 
-1. Follow the instructions given in the section [Software Setup](../software_setup) to install all required software for the course. 
+1. Follow the instructions given in the section [Software Setup](../software_setup) to install and configure all software that is required for the course on your computer. 
 
-2. Execute the python file _check\_environment.py_ from within your new Python environment to verify that all required packages have been installed successfully. Using the following command the output of the program will be written into a new text file called _check\_environment\_result.txt_. If you get an error message, try the solve it using the suggested solutions.  
+2. Execute the python file _check\_environment.py_ from within your new Python environment to verify that all required packages have been installed successfully. Using the following command the output of the program will be written to a new text file called _check\_environment\_result.txt_. Make sure that you don't get any import errors. 
 
 	```
 	$ python check_environment.py > check_environment_result.txt
@@ -42,17 +42,17 @@ Read the paper by [Wilson et al. (2014)](https://www.ncbi.nlm.nih.gov/pmc/articl
 
 ## 3. Using git and Jupyter Notebooks
 
-Now we will use git to track the changes of the new files we have created so far. If you are not familiar with git yet, work through the section [Introduction to git](git/index.rst).
+In this last section, you will use git to track the changes of the files that we have created so far. If you are not familiar with git yet, work through the section [Introduction to git](git/index.rst) before continuing with the exercises. 
 
 ### Clone GitHub repository and track your changes
 
-1. If you haven't done so already, clone the GitHub repository of this assignment on your computer. 
+1. If you haven't done so already, clone the GitHub repository of this assignment on your computer. Make sure to use the __URL of your repository__. 
 
 	```
-	git clone https://github.com/geoscripting/preparatory_assignment.git
+	git clone https://github.com/geoscripting/preparatory-assignment-redfrexx.git
 	```
 	
-2. We have created two files so far. Copy these files into the main folder of the cloned repository. Create a commit for each one of them to add them to your local git repository, e.g.
+2. In the previous two exercises you have created two files. Copy these files into the main folder of the cloned repository. Create a commit for each one of them in order to track them in your local git repository, e.g.
 
 	```
 	git add scientific_programming.txt
@@ -64,7 +64,7 @@ Now we will use git to track the changes of the new files we have created so far
 1. Activate the _advgeoscripting_ environment and start a Jupyter Notebook server. 
 2. Create a new Jupyter notebook using the Python 3 kernel and name it _preparatory\_assignment.ipynb_. 
 3. Import the function ```check_packages()``` from _check\_environment.py_ and execute it in order to check whether the notebook is using the right anaconda environment 'advgeoscripting'. If you get a ```ModuleImportError```, check whether the right kernel is selected (Jupyter Menu: Kernel &rarr; Change kernel).
-4. Add the notebook to your git repository by creating a new commit.
+4. If everything works, save your notebook and add it to your git repository by creating a new commit.
 5. Within the notebook, write a new function called ```list_sum()```, which calculates the sum of all numbers in a list. e.g. 
 
 	``` python
@@ -78,9 +78,13 @@ Now we will use git to track the changes of the new files we have created so far
 
 ### Synchronise your repository with GitHub
 
-1. Push all your commits to GitHub. 
+The last task of this assignment is to push all your commits to GitHub. 
 
-If you make further edits to your files (e.g. editing your answers to the questions in exercise 1) remember that you can always add these changes to your GitHub repository by creating further commits and pushing them to GitHub. 
+```
+git push origin master 
+```
+
+__One last note:__ If you make further edits to your files (e.g. editing your answers to the questions in exercise 1) remember that you can always synchronise these changes with your GitHub repository by creating further commits and pushing them to GitHub. 
 
 
 ### Well done, your ready for the course! :) 
