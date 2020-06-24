@@ -6,7 +6,6 @@
 __author__ = "Christina Ludwig, GIScience Research Group, Heidelberg University"
 __email__ = "christina.ludwig@uni-heidelberg.de"
 
-import subprocess
 
 def check_packages():
     """
