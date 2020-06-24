@@ -25,6 +25,7 @@ def check_packages():
         import sklearn
         import scipy
         import seaborn
+        import plotly
     except ModuleNotFoundError as e:
         print("Ups, something went wrong! There was an error importing the package '{}': '{}'".format(e.name, e))
         print("Seems like it is not installed in your environment. How to solve this problem: "
@@ -39,6 +40,7 @@ def check_packages():
 
 
 def main():
+    print("Checking required packages. This may take a few seconds ... ")
     check_packages()
     return 0
 
