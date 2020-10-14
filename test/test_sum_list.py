@@ -16,7 +16,7 @@ def test_function_exists():
     Test whether function list_sum was defined
     :return:
     """
-    files_lowercase = [x.lower() for x in os.listdir("..")]
+    files_lowercase = [x.lower() for x in os.listdir(".")]
     assert "preparatory_assignment.ipynb" in files_lowercase
 
 
@@ -25,7 +25,7 @@ def test_sum_all_positive():
     Test result if all numbers are positive
     :return:
     """
-    os.chdir("..")
+    os.chdir(".")
     from preparatory_assignment import list_sum
 
     # given
@@ -36,4 +36,10 @@ def test_sum_all_positive():
     result = list_sum(numbers)
 
     # Compare
+    print(result == expected_result)
     assert result == expected_result
+
+if __name__ == "__main__":
+
+    test_function_exists()
+    test_sum_all_positive()
